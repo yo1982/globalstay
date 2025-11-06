@@ -1,0 +1,5 @@
+{
+  "name": "GlobalStay Hotel Booking",
+  "description": "A sleek and modern hotel booking platform that allows users to search for hotels worldwide, view details, and simulate the booking and payment process. Features an AI-powered local guide to enhance the travel experience.",
+  "requestFramePermissions": []
+}

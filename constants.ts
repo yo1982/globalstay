@@ -1,0 +1,113 @@
+
+import { Hotel } from './types';
+
+export const MOCK_HOTELS: Hotel[] = [
+  {
+    id: '1',
+    name: 'The Parisian Dream',
+    city: 'Paris',
+    country: 'France',
+    pricePerNight: 250,
+    rating: 4.8,
+    reviewsCount: 1245,
+    mainImage: 'https://picsum.photos/seed/paris/800/600',
+    images: [
+      'https://picsum.photos/seed/paris-room/800/600',
+      'https://picsum.photos/seed/paris-lobby/800/600',
+      'https://picsum.photos/seed/paris-pool/800/600',
+      'https://picsum.photos/seed/paris-view/800/600',
+    ],
+    amenities: ['Free WiFi', 'Pool', 'Spa', 'Restaurant', 'Gym', 'Room Service'],
+    description: 'Experience the heart of Paris with breathtaking views of the Eiffel Tower. Our hotel offers luxury accommodations, a world-class spa, and exquisite dining options, making it the perfect romantic getaway.',
+    policies: {
+      checkIn: '3:00 PM',
+      checkOut: '11:00 AM',
+      cancellation: 'Free cancellation up to 48 hours before check-in.',
+    },
+    reviews: [
+      { author: 'Jane Doe', date: '2023-10-15', rating: 5, text: 'Absolutely stunning hotel with the best service I have ever experienced.' },
+      { author: 'John Smith', date: '2023-09-22', rating: 4, text: 'Great location and beautiful rooms, but the restaurant was a bit pricey.' },
+    ],
+  },
+  {
+    id: '2',
+    name: 'Tokyo Modern Ryokan',
+    city: 'Tokyo',
+    country: 'Japan',
+    pricePerNight: 320,
+    rating: 4.9,
+    reviewsCount: 987,
+    mainImage: 'https://picsum.photos/seed/tokyo/800/600',
+    images: [
+      'https://picsum.photos/seed/tokyo-room/800/600',
+      'https://picsum.photos/seed/tokyo-garden/800/600',
+      'https://picsum.photos/seed/tokyo-bath/800/600',
+      'https://picsum.photos/seed/tokyo-food/800/600',
+    ],
+    amenities: ['Free WiFi', 'Onsen (Hot Spring)', 'Kaiseki Dinner', 'Garden', 'Tea Ceremony'],
+    description: 'A perfect blend of traditional Japanese hospitality and modern luxury. Our Ryokan offers serene gardens, authentic onsen baths, and multi-course kaiseki meals. An unforgettable cultural experience.',
+    policies: {
+      checkIn: '4:00 PM',
+      checkOut: '10:00 AM',
+      cancellation: 'Cancellation fee applies if cancelled within 7 days of check-in.',
+    },
+    reviews: [
+      { author: 'Emily White', date: '2023-11-01', rating: 5, text: 'A truly magical and authentic experience. The staff were incredible.' },
+      { author: 'Chris Green', date: '2023-10-10', rating: 5, text: 'The onsen was the highlight of our trip to Japan. Worth every penny.' },
+    ],
+  },
+  {
+    id: '3',
+    name: 'New York Skyscraper Suites',
+    city: 'New York',
+    country: 'USA',
+    pricePerNight: 450,
+    rating: 4.7,
+    reviewsCount: 2103,
+    mainImage: 'https://picsum.photos/seed/newyork/800/600',
+    images: [
+      'https://picsum.photos/seed/ny-room/800/600',
+      'https://picsum.photos/seed/ny-view/800/600',
+      'https://picsum.photos/seed/ny-bar/800/600',
+      'https://picsum.photos/seed/ny-gym/800/600',
+    ],
+    amenities: ['Free WiFi', 'Rooftop Bar', 'Gym', 'Valet Parking', 'Concierge'],
+    description: 'Soar above the city that never sleeps in our luxury suites. Located in the heart of Manhattan, you are just steps away from world-famous attractions, theaters, and shopping.',
+    policies: {
+      checkIn: '3:00 PM',
+      checkOut: '12:00 PM',
+      cancellation: 'Free cancellation up to 72 hours before check-in.',
+    },
+    reviews: [
+      { author: 'Michael Brown', date: '2023-10-25', rating: 5, text: 'The views from our room were insane! You feel like you are on top of the world.' },
+      { author: 'Sarah Jones', date: '2023-09-30', rating: 4, text: 'Excellent hotel, very modern and clean. The rooftop bar is a must-visit.' },
+    ],
+  },
+   {
+    id: '4',
+    name: 'Rome Ancient Charm',
+    city: 'Rome',
+    country: 'Italy',
+    pricePerNight: 180,
+    rating: 4.6,
+    reviewsCount: 854,
+    mainImage: 'https://picsum.photos/seed/rome/800/600',
+    images: [
+      'https://picsum.photos/seed/rome-room/800/600',
+      'https://picsum.photos/seed/rome-terrace/800/600',
+      'https://picsum.photos/seed/rome-breakfast/800/600',
+      'https://picsum.photos/seed/rome-exterior/800/600',
+    ],
+    amenities: ['Free WiFi', 'Rooftop Terrace', 'Free Breakfast', 'Airport Shuttle', 'Pet-friendly'],
+    description: 'Stay in a beautifully restored historic building just minutes from the Colosseum. Our hotel combines ancient Roman charm with modern comforts for a truly unique stay.',
+    policies: {
+      checkIn: '2:00 PM',
+      checkOut: '11:00 AM',
+      cancellation: 'Free cancellation up to 48 hours before check-in.',
+    },
+    reviews: [
+      { author: 'David Wilson', date: '2023-10-18', rating: 5, text: 'Perfect location for exploring the city. The staff gave us excellent restaurant recommendations.' },
+      { author: 'Laura Taylor', date: '2023-09-12', rating: 4, text: 'Charming hotel with a lot of character. The room was a bit small but very cozy.' },
+    ],
+  },
+];
